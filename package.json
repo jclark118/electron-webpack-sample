@@ -12,7 +12,14 @@
     "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null"
   },
   "dependencies": {
+    "electron-rebuild": "^2.3.4",
+    "gdal": "^0.10.1",
     "source-map-support": "^0.5.16"
+  },
+  "build": {
+    "productName": "electron webpack sample",
+    "appId": "electron.webpack.sample",
+    "asar": false
   },
   "devDependencies": {
     "electron": "10.0.0",
